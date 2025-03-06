@@ -7,7 +7,7 @@
         <mxCell id="UN6_ZWC7_VnN-grn2IyT-1" value="Band/Watch" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/36.Watch-128.png" vertex="1" parent="1">
           <mxGeometry x="30" y="215" width="128" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="UN6_ZWC7_VnN-grn2IyT-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/App_Service_Mobile_App.svg;" vertex="1" parent="1">
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-2" value="App/MiniProgram" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/App_Service_Mobile_App.svg;" vertex="1" parent="1">
           <mxGeometry x="270" y="225" width="80.24" height="118" as="geometry" />
         </mxCell>
         <mxCell id="UN6_ZWC7_VnN-grn2IyT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.062;entryY=0.492;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UN6_ZWC7_VnN-grn2IyT-1" target="UN6_ZWC7_VnN-grn2IyT-2">
