@@ -1,9 +1,67 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="Page-1" id="QRuJgR5XVLNu-BTppvLG">
-    <mxGraphModel>
+    <mxGraphModel dx="946" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-1" value="Band/Watch" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/36.Watch-128.png" vertex="1" parent="1">
+          <mxGeometry x="30" y="215" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/App_Service_Mobile_App.svg;" vertex="1" parent="1">
+          <mxGeometry x="270" y="225" width="80.24" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.062;entryY=0.492;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UN6_ZWC7_VnN-grn2IyT-1" target="UN6_ZWC7_VnN-grn2IyT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-4" value="&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;BlueTooth/SDK&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UN6_ZWC7_VnN-grn2IyT-3">
+          <mxGeometry x="-0.326" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-5" value="Band&amp;nbsp;&lt;div&gt;Backend Service&lt;/div&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="450" y="229" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UN6_ZWC7_VnN-grn2IyT-6" target="UN6_ZWC7_VnN-grn2IyT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-18" value="ETL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UN6_ZWC7_VnN-grn2IyT-15">
+          <mxGeometry x="-0.1845" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-6" value="RDS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.rds;" vertex="1" parent="1">
+          <mxGeometry x="660" y="245.5" width="80" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-7" value="DMP as DataPortal" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="670" y="80" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-8" value="Wellness Center for health report" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="670" y="390" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.581;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UN6_ZWC7_VnN-grn2IyT-2" target="UN6_ZWC7_VnN-grn2IyT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-17" value="Aliyun DMZ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UN6_ZWC7_VnN-grn2IyT-13">
+          <mxGeometry x="-0.3885" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.34;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UN6_ZWC7_VnN-grn2IyT-5" target="UN6_ZWC7_VnN-grn2IyT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-20" value="&amp;nbsp;Aliyun LAN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UN6_ZWC7_VnN-grn2IyT-14">
+          <mxGeometry x="-0.3681" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UN6_ZWC7_VnN-grn2IyT-6" target="UN6_ZWC7_VnN-grn2IyT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UN6_ZWC7_VnN-grn2IyT-19" value="ETL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UN6_ZWC7_VnN-grn2IyT-16">
+          <mxGeometry x="0.1714" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
